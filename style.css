@@ -1,0 +1,13 @@
+/* any span in text starts with opacity 0 */
+#text_1 span {
+    opacity: 0;
+}
+
+/* once it gains the class revealed, the opacity changes to 1 */
+#text_1 span.revealed {
+    opacity: 1;
+}
+
+#text_1 span.green {
+    color: #27ae27
+}
